@@ -204,9 +204,9 @@
 
         <lib-file src="src/android/libs/jpush-android-3.1.5.jar" />
 
-        <source-file src="src/android/JPushReceiver.java" target-dir="app/src/main/java/cn/jiguang/cordova/push" />
-        <source-file src="src/android/JPushPlugin.java" target-dir="app/src/main/java/cn/jiguang/cordova/push" />
-        <source-file src="src/android/JPushEventReceiver.java" target-dir="app/src/main/java/cn/jiguang/cordova/push" />
+        <source-file src="src/android/JPushReceiver.java" target-dir="src/cn/jiguang/cordova/push" />
+        <source-file src="src/android/JPushPlugin.java" target-dir="src/cn/jiguang/cordova/push" />
+        <source-file src="src/android/JPushEventReceiver.java" target-dir="src/cn/jiguang/cordova/push" />
 
         <resource-file src="src/android/res/drawable-hdpi/jpush_richpush_btn_selector.xml"
           target="res/drawable/jpush_richpush_btn_selector.xml" />
